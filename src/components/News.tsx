@@ -39,15 +39,39 @@ import {
 const News = () => {
     return (
         <>
+            {/* <Carousel
+                opts={{
+                    align: "center",
+                }}
+                className="md:hidden w-full px-2 items-center justify-center"
+                orientation="vertical"
+            >
+                <CarouselContent>
+                    {Array.from({ length: 10 }).map((_, index) => (
+                        <CarouselItem key={index} className="basis-full pt-1 overflow-hidden bg-amber-600">
+                            <div className="p-1">
+                                <Card>
+                                    <CardContent className="aspect-video items-center justify-center p-6 hover:scale-105 -mt-1 h-67.5">
+                                        <div className="bg-[url('/ipam.png')] bg-cover bg-center h-32 mb-4 rounded-xl"></div>
+                                        <h4 className="font-semibold mb-2">Título da Notícia {index + 1}</h4>
+                                        <p className="text-sm text-gray-600">Resumo breve da notícia institucional.</p>                                    </CardContent>
+                                </Card>
+                            </div>
+                        </CarouselItem>
+                    ))}
+                </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+            </Carousel> */}
+
             <Carousel
                 opts={{
                     align: "center",
                 }}
-                className="max-w-6xl mx-auto px-6 grid gap-8 my-5"
-            >
+                className="max-w-6xl mx-auto px-6 grid gap-8 my-5">
                 <CarouselContent>
                     {Array.from({ length: 5 }).map((_, index) => (
-                        <CarouselItem key={index} className="basis-1/2 lg:basis-1/3 ">
+                        <CarouselItem key={index} className="basis-full md:basis-1/2 lg:basis-1/3 ">
                             <div className="p-1">
                                 <Card>
                                     <CardContent className="aspect-video items-center justify-center p-6 hover:scale-105">
@@ -59,8 +83,8 @@ const News = () => {
                         </CarouselItem>
                     ))}
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
+                <CarouselPrevious className="hidden xl:block" />
+                <CarouselNext className="hidden xl:block" />
             </Carousel>
         </>
     )
