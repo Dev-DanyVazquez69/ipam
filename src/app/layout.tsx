@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "IPAM",
-  description: "IPAM - Instituto de Previdência Municipal de São Luis",
+  description: "Instituto de Previdência e Assistência do Município - IPAM",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     },
   ],
   category: "Government",
-  keywords: ["IPAM", "Instituto de Previdência Municipal de São Luis", "Previdência", "São Luis"],
+  keywords: ["IPAM", "Instituto de Previdência e Assistência do Município de São Luis", "Previdência", "São Luis"],
 
 };
 

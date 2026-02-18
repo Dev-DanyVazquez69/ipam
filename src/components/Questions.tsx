@@ -8,21 +8,21 @@ import {
 const questions = [
     {
         value: "Questão-1",
-        trigger: "Como funciona o sistema?",
+        trigger: "Onde é localizado?",
         content:
-            "Click on 'Forgot Password' on the login page, enter your email address, and we'll send you a link to reset your password. The link will expire in 24 hours.",
+            "O IPAM está localizado na Rua 15 de Novembro, 123, Centro, São Luis - MA."
     },
     {
         value: "Questão-2",
         trigger: "O que é o IPAM?",
         content:
-            "Yes, you can upgrade or downgrade your plan at any time from your account settings. Changes will be reflected in your next billing cycle.",
+            "O IPAM é o Instituto de Previdência e Assistência do Município de São Luis. É responsável por administrar o sistema previdenciário municipal, garantindo benefícios como aposentadorias, pensões e outros serviços de assistência social.",
     },
     {
         value: "Questão-3",
-        trigger: "Quais métodos de pagamento vocês aceitam?",
+        trigger: "Quais os tipos de aposentadorias existentes?",
         content:
-            "We accept all major credit cards, PayPal, and bank transfers. All payments are processed securely through our payment partners.",
+            "Apodentadoria por idade: Requer 65 anos para homens e 62 anos para mulheres, com pelo menos 15 anos de contribuição. Aposentadoria por tempo de contribuição: Requer 35 anos de contribuição para homens e 30 anos para mulheres, independentemente da idade. Aposentadoria especial: Para trabalhadores expostos a condições prejudiciais à saúde, com requisitos específicos de tempo de contribuição e exposição.",
     },
 ]
 
